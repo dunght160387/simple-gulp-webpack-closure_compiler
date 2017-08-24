@@ -1,0 +1,41 @@
+{
+  "name": "simple-gulp-webpack-closure_compiler",
+  "version": "1.0.0-rc.2",
+  "private": false,
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "~6.13.0",
+    "babel-preset-es2015": "^6.9.0",
+    "chalk": "^1.1.3",
+    "file-loader": "^0.8.5",
+    "google-closure-compiler": "~20160208.1.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1",
+    "webpack": "^1.13.1",
+    "webpack-closure-compiler": "~2.0.2",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-replace": "~1.0.0",
+    "yargs": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --colors --watch",
+    "serve": "http-server -a localhost -p 8081 ./dist/3.deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunght160387/simple-gulp-webpack-closure_compiler.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunght160387/simple-gulp-webpack-closure_compiler/issues"
+  },
+  "homepage": "https://github.com/dunght160387/simple-gulp-webpack-closure_compiler#readme",
+  "dependencies": {}
+}
