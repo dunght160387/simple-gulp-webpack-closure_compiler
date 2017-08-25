@@ -1,6 +1,6 @@
 {
   "name": "simple-gulp-webpack-closure_compiler",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0-rc.4",
   "private": false,
   "devDependencies": {
     "babel-core": "^6.9.1",

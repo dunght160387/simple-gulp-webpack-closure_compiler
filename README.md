@@ -46,9 +46,9 @@ The output file `my-app-x.y.z` will be found in ./dist/ (the dir we serve web fr
 **Run dev server:**  
 
 ```
-$ npm run dev
+$ npm run serve
 ```
 
 After running dev server successfully, open browser and browse to:
-[http://localhost:8080/play.html#](http://localhost:8080/play.html#),
+[http://localhost:8081/play.html#](http://localhost:8081/dev/play.html#) (dev/ when build --env=dev, replace by test or prod for other builds),
 then check the displayed contents and console log to sure our app works properly.
